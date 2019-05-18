@@ -39,22 +39,51 @@ table{
 	transition: .3s ease all;
 	width: 100%;
 }
-h1 {
+
+th {
 	font-family:'Press Start 2P', cursive;
 	color: #1d1919;
-
+	font-size: 24px;
 }
-th{
-	padding: 20px;
+
+@media only screen and (max-width: 600px) {
+	th {
+		font-size: 8px;
+	}
+	.AP1 > h1 {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+	th {
+		font-size: 10px;
+	}
+	.AP1 > h1 {
+		font-size: 40px;
+	}
+}
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+	th {
+		font-size: 16px;
+	}
+	.AP1 > h1 {
+		font-size: 50px;
+	}
+}
+
+th {
+	padding: 20px 0px;
 	height: 100%;
-	width: auto;
 	border: solid white 5px;
 	color: white;
 	background: #232931;
 	border-radius: 05%;
-	font-size: 50px;
 	font-family:'Press Start 2P', cursive;
 	transition: .3s ease all;
+}
+h1 {
+	font-size: 80px;
 }
 h3 {
 	font-size: 36px;
@@ -95,13 +124,11 @@ h5 {
 	/*P1*/
 	.AP1{
 		padding: 20px;
-		height: 100%;
 		width: 100%;
 		border: solid black 5px;
 		color: #1d1919;
 		background: #eeeeee;
 		border-radius: 5%;
-		font-size: 80px;
 		cursor: pointer;
 		transition: .3s ease all;
 	}

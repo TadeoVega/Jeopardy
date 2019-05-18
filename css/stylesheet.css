@@ -33,7 +33,7 @@ body {
 	margin: 0;
 	box-sizing:border-box;
 	font-size: 50px;
-}	
+}
 table{
 	padding: 10px;
 	transition: .3s ease all;
@@ -120,7 +120,7 @@ h5 {
 .IMGDIN{
 	height: 100%;
 	width: 100%;}
-.clasesinningunsentido{/*ESTA CLASE ESTA HECHA PARA COMPRIMIR TODOS LO BOTONES DE OPCION*/}	
+.clasesinningunsentido{/*ESTA CLASE ESTA HECHA PARA COMPRIMIR TODOS LO BOTONES DE OPCION*/}
 	/*P1*/
 	.AP1{
 		padding: 20px;
@@ -1923,4 +1923,11 @@ h5 {
 }
 .incorrecto-contenedor.active{
 	visibility: visible;
+}
+
+button:disabled {
+	color: gray;
+	border-color: gray;
+	cursor: not-allowed;
+	background-color: #eee !important;
 }

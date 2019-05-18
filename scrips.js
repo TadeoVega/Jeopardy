@@ -376,8 +376,8 @@ CP25.addEventListener('click', function(e){
 
 document.querySelectorAll('input[type=button].resp-correcta').forEach(function (a) {
 	a.addEventListener('click', function () {
-		var popUpCorrecto = document.getElementsByClassName('correcto-fondo')[0];
-		popUpCorrecto.classList.add('active');
+		let popUp = document.getElementsByClassName('correcto-fondo')[0];
+		popUp.classList.add('active');
 		setTimeout(function () {
 			popUpCorrecto.classList.remove('active');
 		}, 2000);
@@ -385,8 +385,8 @@ document.querySelectorAll('input[type=button].resp-correcta').forEach(function (
 })
 document.querySelectorAll('input[type=button].resp-incorrecta').forEach(function (a) {
 	a.addEventListener('click', function () {
-		var popUpCorrecto = document.getElementsByClassName('incorrecto-fondo')[0];
-		popUpCorrecto.classList.add('active');
+		let popUp = document.getElementsByClassName('incorrecto-fondo')[0];
+		popUp.classList.add('active');
 		setTimeout(function () {
 			popUpCorrecto.classList.remove('active');
 		}, 2000);
@@ -402,5 +402,5 @@ function Puntos200() {
 }
 function Puntos400() {
 	var suma2 = sumar+400;
-	var suma_p2=document.getElementById("resultado").innerHTML=suma2;	
+	var suma_p2=document.getElementById("resultado").innerHTML=suma2;
 }

@@ -177,13 +177,13 @@ nav ul li a {
     margin-top: 4px;
   }
 }
- 
+
   .hidden {
     display: none;
   }
 
-  .button { 
-    display: inline-block; 
+  .button {
+    display: inline-block;
     padding: 15px 40px;
     color: #fc3c3c;
     position: absolute;
@@ -202,8 +202,8 @@ nav ul li a {
     border-radius: 20px;
     padding: 50px;
   }
-  .button2{ 
-    display: inline-block; 
+  .button2{
+    display: inline-block;
     padding: 15px 40px;
     color: #ffd700;
     position: absolute;
@@ -221,8 +221,8 @@ nav ul li a {
     text-align: center;
     border-radius: 20px;
   }
-    .button3{ 
-    display: inline-block; 
+    .button3{
+    display: inline-block;
     padding: 15px 40px;
     color: #e01171;
     position: absolute;
@@ -309,7 +309,7 @@ nav ul li a {
 .caja2 .contenido {
   padding-left: 20px;
 }
-.caja2 .contenido h2{ 
+.caja2 .contenido h2{
   margin: 0;
   padding-left: 0;
   color: #323643;
@@ -329,12 +329,12 @@ nav ul li a {
 .caja3 .imagencaja img{
   max-width: 100%;
   border-radius: 50%;
- 
+
 
 }
 .caja3 .contenido {
   padding-left: 20px;
-  
+
 }
 .caja3 .contenido h2{
   margin: 0;
@@ -356,12 +356,12 @@ nav ul li a {
 .caja1 .imagencaja img{
   max-width: 100%;
   border-radius: 50%;
- 
+
 
 }
 .caja1 .contenido {
   padding-left: 20px;
-  
+
 }
 .caja1 .contenido h2{
   margin: 0;

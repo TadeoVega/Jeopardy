@@ -3,7 +3,8 @@ var A_P_1 = document.getElementById('AP1'),
 	P_1 = document.getElementById('P1'),
 	C_P_1 = document.getElementById('CP1');
 
-A_P_1.addEventListener('click', function(){
+A_P_1.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO1.classList.add('active');
 	P1.classList.add('active');
 });
@@ -18,7 +19,8 @@ var A_P_2 = document.getElementById('AP2'),
 	P_2 = document.getElementById('P2'),
 	C_P_2 = document.getElementById('CP2');
 
-A_P_2.addEventListener('click', function(){
+A_P_2.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO2.classList.add('active');
 	P2.classList.add('active');
 });
@@ -33,7 +35,8 @@ var A_P_3 = document.getElementById('AP3'),
 	P_3 = document.getElementById('P3'),
 	C_P_3 = document.getElementById('CP3');
 
-A_P_3.addEventListener('click', function(){
+A_P_3.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO3.classList.add('active');
 	P3.classList.add('active');
 });
@@ -48,7 +51,8 @@ var A_P_4 = document.getElementById('AP4'),
 	P_4 = document.getElementById('P4'),
 	C_P_4 = document.getElementById('CP4');
 
-A_P_4.addEventListener('click', function(){
+A_P_4.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO4.classList.add('active');
 	P4.classList.add('active');
 });
@@ -63,7 +67,8 @@ var A_P_5 = document.getElementById('AP5'),
 	P_5 = document.getElementById('P5'),
 	C_P_5 = document.getElementById('CP5');
 
-A_P_5.addEventListener('click', function(){
+A_P_5.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO5.classList.add('active');
 	P5.classList.add('active');
 });
@@ -78,7 +83,8 @@ var A_P_6 = document.getElementById('AP6'),
 	P_6 = document.getElementById('P6'),
 	C_P_6 = document.getElementById('CP6');
 
-A_P_6.addEventListener('click', function(){
+A_P_6.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO6.classList.add('active');
 	P6.classList.add('active');
 });
@@ -93,7 +99,8 @@ var A_P_7 = document.getElementById('AP7'),
 	P_7 = document.getElementById('P7'),
 	C_P_7 = document.getElementById('CP7');
 
-A_P_7.addEventListener('click', function(){
+A_P_7.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO7.classList.add('active');
 	P7.classList.add('active');
 });
@@ -108,7 +115,8 @@ var A_P_8 = document.getElementById('AP8'),
 	P_8 = document.getElementById('P8'),
 	C_P_8 = document.getElementById('CP8');
 
-A_P_8.addEventListener('click', function(){
+A_P_8.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO8.classList.add('active');
 	P8.classList.add('active');
 });
@@ -123,7 +131,8 @@ var A_P_9 = document.getElementById('AP9'),
 	P_9 = document.getElementById('P9'),
 	C_P_9 = document.getElementById('CP9');
 
-A_P_9.addEventListener('click', function(){
+A_P_9.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO9.classList.add('active');
 	P9.classList.add('active');
 });
@@ -138,7 +147,8 @@ var A_P_10 = document.getElementById('AP10'),
 	P_10 = document.getElementById('P10'),
 	C_P_10 = document.getElementById('CP10');
 
-A_P_10.addEventListener('click', function(){
+A_P_10.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO10.classList.add('active');
 	P10.classList.add('active');
 });
@@ -153,7 +163,8 @@ var A_P_11 = document.getElementById('AP11'),
 	P_11 = document.getElementById('P11'),
 	C_P_11 = document.getElementById('CP11');
 
-A_P_11.addEventListener('click', function(){
+A_P_11.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO11.classList.add('active');
 	P11.classList.add('active');
 });
@@ -168,7 +179,8 @@ var A_P_12 = document.getElementById('AP12'),
 	P_12 = document.getElementById('P12'),
 	C_P_12 = document.getElementById('CP12');
 13
-A_P_12.addEventListener('click', function(){
+A_P_12.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO12.classList.add('active');
 	P12.classList.add('active');
 });
@@ -183,7 +195,8 @@ var A_P_13 = document.getElementById('AP13'),
 	P_13 = document.getElementById('P13'),
 	C_P_13 = document.getElementById('CP13');
 
-A_P_13.addEventListener('click', function(){
+A_P_13.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO13.classList.add('active');
 	P13.classList.add('active');
 });
@@ -198,7 +211,8 @@ var A_P_14 = document.getElementById('AP14'),
 	P_14 = document.getElementById('P14'),
 	C_P_14 = document.getElementById('CP14');
 
-A_P_14.addEventListener('click', function(){
+A_P_14.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO14.classList.add('active');
 	P14.classList.add('active');
 });
@@ -213,7 +227,8 @@ var A_P_15 = document.getElementById('AP15'),
 	P_15 = document.getElementById('P15'),
 	C_P_15 = document.getElementById('CP15');
 
-A_P_15.addEventListener('click', function(){
+A_P_15.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO15.classList.add('active');
 	P15.classList.add('active');
 });
@@ -228,7 +243,8 @@ var A_P_16 = document.getElementById('AP16'),
 	P_16 = document.getElementById('P16'),
 	C_P_16 = document.getElementById('CP16');
 
-A_P_16.addEventListener('click', function(){
+A_P_16.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO16.classList.add('active');
 	P16.classList.add('active');
 });
@@ -243,7 +259,8 @@ var A_P_17 = document.getElementById('AP17'),
 	P_17 = document.getElementById('P17'),
 	C_P_1817= document.getElementById('CP17');
 
-A_P_17.addEventListener('click', function(){
+A_P_17.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO17.classList.add('active');
 	P17.classList.add('active');
 });
@@ -258,7 +275,8 @@ var A_P_18 = document.getElementById('AP18'),
 	P_18 = document.getElementById('P18'),
 	C_P_18 = document.getElementById('CP18');
 
-A_P_18.addEventListener('click', function(){
+A_P_18.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO18.classList.add('active');
 	P18.classList.add('active');
 });
@@ -273,7 +291,8 @@ var A_P_19 = document.getElementById('AP19'),
 	P_19 = document.getElementById('P19'),
 	C_P_19 = document.getElementById('CP19');
 
-A_P_19.addEventListener('click', function(){
+A_P_19.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO19.classList.add('active');
 	P19.classList.add('active');
 });
@@ -288,7 +307,8 @@ var A_P_20 = document.getElementById('AP20'),
 	P_20 = document.getElementById('P20'),
 	C_P_20 = document.getElementById('CP20');
 
-A_P_20.addEventListener('click', function(){
+A_P_20.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO20.classList.add('active');
 	P20.classList.add('active');
 });
@@ -303,7 +323,8 @@ var A_P_21 = document.getElementById('AP21'),
 	P_21 = document.getElementById('P21'),
 	C_P_21 = document.getElementById('CP21');
 
-A_P_21.addEventListener('click', function(){
+A_P_21.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO21.classList.add('active');
 	P21.classList.add('active');
 });
@@ -318,7 +339,8 @@ var A_P_22 = document.getElementById('AP22'),
 	P_22 = document.getElementById('P22'),
 	C_P_22 = document.getElementById('CP22');
 
-A_P_22.addEventListener('click', function(){
+A_P_22.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO22.classList.add('active');
 	P22.classList.add('active');
 });
@@ -333,7 +355,8 @@ var A_P_23 = document.getElementById('AP23'),
 	P_23 = document.getElementById('P23'),
 	C_P_23 = document.getElementById('CP23');
 
-A_P_23.addEventListener('click', function(){
+A_P_23.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO23.classList.add('active');
 	P23.classList.add('active');
 });
@@ -348,7 +371,8 @@ var A_P_24 = document.getElementById('AP24'),
 	P_24 = document.getElementById('P24'),
 	C_P_24 = document.getElementById('CP24');
 
-A_P_24.addEventListener('click', function(){
+A_P_24.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO24.classList.add('active');
 	P24.classList.add('active');
 });
@@ -363,7 +387,8 @@ var A_P_25 = document.getElementById('AP25'),
 	P_25 = document.getElementById('P25'),
 	C_P_25= document.getElementById('CP25');
 
-A_P_25.addEventListener('click', function(){
+A_P_25.addEventListener('click', function(e){
+	e.currentTarget.setAttribute('disabled', true);
 	PO25.classList.add('active');
 	P25.classList.add('active');
 });
@@ -379,7 +404,7 @@ document.querySelectorAll('input[type=button].resp-correcta').forEach(function (
 		let popUp = document.getElementsByClassName('correcto-fondo')[0];
 		popUp.classList.add('active');
 		setTimeout(function () {
-			popUpCorrecto.classList.remove('active');
+			popUp.classList.remove('active');
 		}, 2000);
 	})
 })
@@ -388,7 +413,7 @@ document.querySelectorAll('input[type=button].resp-incorrecta').forEach(function
 		let popUp = document.getElementsByClassName('incorrecto-fondo')[0];
 		popUp.classList.add('active');
 		setTimeout(function () {
-			popUpCorrecto.classList.remove('active');
+			popUp.classList.remove('active');
 		}, 2000);
 	})
 })
